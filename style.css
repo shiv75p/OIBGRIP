@@ -1,78 +1,76 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #3a6186;
-    background: -webkit-linear-gradient(to right, #89253e, #3a6186);
-    background: linear-gradient(to right, #89253e, #3a6186);    
-}
-.container{
-    text-align:center;
-}
-table{
-    margin:auto;
-}
-input{
-   background-color: #1e1e1e;
-    grid-column: 1/-1;
-    border-radius: 1rem;
-    border: none;
-    outline: none;
-    padding: 0.5rem 1rem;
-    text-align: right;
-    font-size: 1.2rem;
-    color: white;
-    overflow-x: visible;
-    height: 60px;
-    word-wrap: break-word;
-    word-break: break-all;
-    max-width: 260px;
-    margin-bottom: 1rem;
-    resize: none;
-}
-button{
-    background-color: #1E1E1E;
-     color: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    font-size: 1.3rem;
-    margin: 0.2rem 0.4rem;
-    border: none;
-    outline: none;
-  
-}
-.calculator{
-    width: 320px;
-    background-color: rgba(0, 0, 0, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 2rem;
-    border-radius: 1rem;
-}
-h1{
-    font-size:50px;
-    color: black;
+.container {
+  background-color: #76f6eb;
+  min-height: 100vh;
+  border: 10px solid #1d1e4c;
 }
 
-.red {
-    color: #EC6F77;
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.top_section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.top_section h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1d1e4c;
+  text-transform: uppercase;
+}
+.top_section h4 {
+  font-size: 30px;
+  text-align: end;
 }
 
-.green {
-    color: #A8D16B;
+.image_container {
+  border-radius: 50%;
+  overflow: hidden;
 }
 
-#equal{
-    background-color: #427E04;
-    color: white;
+.image_container,
+img {
+  width: 300px;
+  height: 320px;
+}
+.about_section {
+  margin-top: 50px;
+}
+.about_section h2 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.about_section p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+.biography_section {
+  margin: 50px 0;
+}
+.biography_section h3 {
+  margin-bottom: 20px;
+}
+.biography_section ul {
+  margin-left: 50px;
+}
+.biography_section li {
+  margin-bottom: 15px;
+}
+
+footer {
+  margin: 50px 0;
+}
+footer p {
+  text-align: end;
 }
